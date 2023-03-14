@@ -21,14 +21,8 @@ from datasets import build_dataset
 from engine import train_one_epoch, evaluate
 from losses import DistillationLoss
 from samplers import RASampler
-import models
 import utils
 
-# import uniformer_mvit
-# import uniformer_mvit_5x5
-# import uniformer
-# import uniformer_sparse
-# import uniformer_select_1
 
 import edgevit
 
