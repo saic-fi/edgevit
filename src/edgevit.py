@@ -200,7 +200,7 @@ class EdgeVit(nn.Module):
     """
     def __init__(self, depth=[1, 2, 5, 3], img_size=224, in_chans=3, num_classes=1000, embed_dim=[48, 96, 240, 384],
                  head_dim=64, mlp_ratio=4., qkv_bias=True, qk_scale=None, representation_size=None,
-                 drop_rate=0., attn_drop_rate=0., drop_path_rate=0., norm_layer=None, sr_ratios=[4,2,2,1]):
+                 drop_rate=0., attn_drop_rate=0., drop_path_rate=0., norm_layer=None, sr_ratios=[4,2,2,1], **kwargs):
         """
         Args:
             depth (list): depth of each stage
